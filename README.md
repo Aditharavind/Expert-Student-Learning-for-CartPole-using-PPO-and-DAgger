@@ -80,3 +80,37 @@ Multi-agent expert–student systems
 ```bash
 pip install gymnasium stable-baselines3 torch numpy matplotlib
 jupyter notebook
+---
+
+## Demo & Visual Results
+
+### Expert vs Student Performance
+Comparison of expert and student behavior during CartPole balancing.
+
+![Expert vs Student](expert_vs_student_comparison.png)
+
+---
+
+### DAgger Training Rollouts
+Short rollouts showing how the student improves over iterations.
+
+#### Expert Policy
+<video src="download (1).mp4" controls width="600"></video>
+
+#### Student Policy (After DAgger)
+<video src="download (2).mp4" controls width="600"></video>
+
+---
+
+### Additional Experiments
+
+#### Sensor Fusion (Kalman Filter)
+Visualization from sensor fusion experiments.
+
+![Sensor Fusion](sensor_fusion_kalman.png)
+
+#### World Model & Imagination
+World model visualization used for imagination-based planning.
+
+![World Model](world_model_imagination.png)
+
