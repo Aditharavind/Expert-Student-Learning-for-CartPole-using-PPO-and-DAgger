@@ -59,7 +59,21 @@ The notebook covers the following stages:
 - How DAgger reduces compounding errors  
 - Applying generative models (Flow Matching) to control  
 - Building end-to-end learning systems in practice  
+##Open the notebook and run all cells sequentially.
 
+## Motivation
+
+This project was built to deeply understand how intelligent systems learn from experts, adapt through interaction, and improve over time, with a focus on applications in AI and robotics.
+
+## Future Work
+
+Extend to continuous control environments (MuJoCo, Isaac Gym)
+
+Apply DAgger to real robotic datasets
+
+Combine Flow Matching with reinforcement learning
+
+Multi-agent expert–student systems
 ---
 
 ## How to Run
