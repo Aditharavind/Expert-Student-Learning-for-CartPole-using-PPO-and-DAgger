@@ -76,15 +76,9 @@ Combine Flow Matching with reinforcement learning
 Multi-agent expert–student systems
 ---
 
-## How to Run
-```bash
-pip install gymnasium stable-baselines3 torch numpy matplotlib
-jupyter notebook
----
-
 ## Demo & Visual Results
 
-### Expert vs Student Performance
+##  Expert vs Student Performance
 Comparison of expert and student behavior during CartPole balancing.
 
 ![Expert vs Student](expert_vs_student_comparison.png)
@@ -113,4 +107,11 @@ Visualization from sensor fusion experiments.
 World model visualization used for imagination-based planning.
 
 ![World Model](world_model_imagination.png)
+
+## How to Run
+```bash
+pip install gymnasium stable-baselines3 torch numpy matplotlib
+jupyter notebook
+---
+
 
