@@ -89,10 +89,12 @@ Comparison of expert and student behavior during CartPole balancing.
 Short rollouts showing how the student improves over iterations.
 
 #### Expert Policy
-<video src="video1.mp4" controls width="600"></video>
+![Expert Policy](expert.gif)  
+[Download full video](video1.mp4)
 
 #### Student Policy (After DAgger)
-<video src="video2.mp4" controls width="600"></video>
+![Student Policy](student.gif)  
+[Download full video](video2.mp4)
 
 ---
 
